@@ -11,7 +11,7 @@
     - [SummaryByTickers](#summarybytickers-component)
     - [Positions](#positions-component)
     - [GainLossByPrice and GainLossByPositionSize](#gainlossbyprice-and-gainlossbypositionsize-components)
-    - [BarChart and BreakDownChart](#barchart-and-breakdownchart)
+    - [BarChart and BreakDownChart](#barchart-and-breakdownchart-components)
 - [Tech/Framework used](#technologies-frameworks-and-libraries)
 
 
