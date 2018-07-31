@@ -143,7 +143,7 @@ This component displays the accumulated gain/loss overtime in a line chart
 }
 ```
 
-![TotalGainLossChart Component screenshot](/relative/path/to/img.jpg?raw=true "Optional Title")
+![TotalGainLossChart component](https://github.com/tiffanymtlo/linkedin-reach-project-showcase/blob/master/images/TotalGainLossChart.png)
 
 
 ### `SummaryBar` component
@@ -171,7 +171,7 @@ Sample `props`:
 }
 ```
 
-![SummaryBar Component screenshot](/relative/path/to/img.jpg?raw=true "Optional Title")
+![SummaryBar component](https://github.com/tiffanymtlo/linkedin-reach-project-showcase/blob/master/images/SummaryBar.png)
 
 ### `SummaryByTickers` component
 This component displays each ticker included in the data and its short-term and long-term P/L, as well as the average amount for its winning positions and losing positions
@@ -294,7 +294,7 @@ Sample `props`:
 }
 ```
 
-![SummaryByTickers Component screenshot](/relative/path/to/img.jpg?raw=true "Optional Title")
+![SummaryByTickers component](https://github.com/tiffanymtlo/linkedin-reach-project-showcase/blob/master/images/SummaryByTickers.png)
 
 ### `GainLossByPrice` and `GainLossByPositionSize` components
 These components display scatter plots to show the distribution of investments' returns in related to ticker price and position size
@@ -337,7 +337,7 @@ Sample `props`:
   }
 }
 ```
-![GainLossByPrice and GainLossByPositionSize Components screenshot](/relative/path/to/img.jpg?raw=true "Optional Title")
+![GainLossByPrice and GainLossByPositionSize components](https://github.com/tiffanymtlo/linkedin-reach-project-showcase/blob/master/images/GainLossByPriceAndGainLossByPositionSize.png)
 
 
 ## Technologies, frameworks and libraries
