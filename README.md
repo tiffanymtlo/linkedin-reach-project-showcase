@@ -9,13 +9,15 @@
     - [TotalGainLossChart](#totalgainlosschart-component)
     - [SummaryBar](#summarybar-component)
     - [SummaryByTickers](#summarybytickers-component)
+    - [Positions](#positions-component)
     - [GainLossByPrice and GainLossByPositionSize](#gainlossbyprice-and-gainlossbypositionsize-components)
+    - [BarChart and BreakDownChart](#barchart-and-breakdownchart)
 - [Tech/Framework used](#technologies-frameworks-and-libraries)
 
 
 ## Introduction
 
-Production app: [www.merrymen.co](www.merrymen.co)
+Production app: [www.merrymen.co](http://www.merrymen.co)
 
 MerryMen is a tool for stock traders to analyze their investments' performance. This repo includes source code for the app's front-end before being transpiled by Babel and bundled with Webpack.
 
@@ -296,6 +298,13 @@ Sample `props`:
 
 ![SummaryByTickers component](https://github.com/tiffanymtlo/linkedin-reach-project-showcase/blob/master/images/SummaryByTickers.png)
 
+### `Positions` component
+This component displays closed positions for each stock symbol. Fields displayed include: date opened, date closed, quantity, cost, profit/loss and ROI
+
+`props` for this component is the same as [`SummaryByTickers`](#summarybytickers-component) component's `props`
+
+![Positions component](https://github.com/tiffanymtlo/linkedin-reach-project-showcase/blob/master/images/Positions.png)
+
 ### `GainLossByPrice` and `GainLossByPositionSize` components
 These components display scatter plots to show the distribution of investments' returns in related to ticker price and position size
 
@@ -339,6 +348,20 @@ Sample `props`:
 ```
 ![GainLossByPrice and GainLossByPositionSize components](https://github.com/tiffanymtlo/linkedin-reach-project-showcase/blob/master/images/GainLossByPriceAndGainLossByPositionSize.png)
 
+### `BarChart` and `BreakDownChart` components
+- `BarChart` component: This component displays a bar chart to show the P/L over different time frames
+- `BreakDownChart` component: This component displays a doughnut chart to show the breakdown of winning stocks and losing stocks
+
+Sample `props`: 
+```
+{
+  "title": String, // Title of chart
+  "data": Object, // Object containing chart data
+  "options": Object // Object containing chart options
+}
+```
+![BarChart component](https://github.com/tiffanymtlo/linkedin-reach-project-showcase/blob/master/images/BarChart.png)
+![BreakDownChart component](https://github.com/tiffanymtlo/linkedin-reach-project-showcase/blob/master/images/BreakdownChart.png)
 
 ## Technologies, frameworks and libraries
 - HTML/CSS
