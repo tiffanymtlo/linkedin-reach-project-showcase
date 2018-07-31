@@ -1,0 +1,12 @@
+.progressLoader {
+  width: 200px;
+  box-sizing: border-box;
+  text-align: center;
+  color: #555;
+  font-size: 20px;
+  margin: 10px auto;
+  background: #fff;
+  border-radius: 4px;
+  padding: 8px 5px;
+  opacity: 0.8;
+}

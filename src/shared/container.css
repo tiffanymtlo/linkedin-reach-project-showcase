@@ -1,0 +1,17 @@
+.container {
+  background: #fff;
+  margin: 0 0 20px 0;
+  border: 1px solid #efefef;
+  padding: 10px;
+}
+
+.container > .container-title {
+  font-size: 17px;
+  font-weight: 500;
+  color: #222;
+  margin: 0 0 15px 0;
+  padding: 0;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+}

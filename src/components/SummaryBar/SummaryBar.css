@@ -1,0 +1,33 @@
+.summaryBarContainer {
+  padding: 0 20px;
+  margin-bottom: 30px;
+}
+
+.summaryBarRow {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.summaryBarRow > .summaryBarCell {
+  flex: 0 0 25%;
+  padding: 10px;
+  text-align: center;
+  border-right: 1px solid #eee;
+  box-sizing: border-box;
+}
+
+.summaryBarRow > .summaryBarCell:last-child {
+  border: none;
+}
+
+.summaryBarRow > .summaryBarCell > .summaryBarCellTitle {
+  font-size: 13px;
+  margin: 0;
+}
+
+.summaryBarRow > .summaryBarCell > .summaryBarCellValue {
+  font-size: 20px;
+  margin: 0;
+  padding: 10px;
+}

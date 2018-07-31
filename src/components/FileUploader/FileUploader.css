@@ -1,0 +1,39 @@
+.fileUploader {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.fileUploader > .instructionsPrompt {
+  width: 400px;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: 'Karla';
+  font-size: 12px;
+  color: #333;
+}
+
+.fileUploader > .instructionsPrompt p {
+  font-size: 15px;
+}
+
+.uploadActions {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.uploadActions button {
+  background: #4954E1;
+  font-size: 15px;
+  padding: 8px 13px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  font-weight: 500;
+  color: #fff;
+  min-width: 80px;
+  margin-top: 2px;
+  margin-right: 10px;
+}
